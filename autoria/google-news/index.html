@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<title>GOOGLE FACCAT</title>
+	<meta charset="utf-8">
+</head>
+<header>
+	<nav class="menu-top">
+		<ul>
+			<li class="top-itens"><a href="gmail.com">Gmail</a></li>
+			<li class="top-itens"><a href="gmail.com">Imagens</a></li>
+			<li><a href="gmail.com"><img class="avatar" src="avatar.png"></a></li>
+		</ul>
+	</nav>
+</header>
+<style type="text/css">
+	.top-itens{
+		padding-top: 2px;
+	}
+	.avatar{
+		width: 32px;
+		height: auto;
+	}
+	footer{
+		position: fixed;
+		bottom: 0;
+	}
+	ul,li{
+		display: inline-block;
+		margin-left: 10px;
+	}
+	.logo{
+		margin: 0 auto;
+		background: url('bg.png');
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: center;
+		width: 300px;
+		height: 200px;
+	}
+	.menu-top{
+		float: right;
+	}
+	.footer-left{
+		float: left;
+	}
+	.footer-right{
+		float: right;
+		padding: 0 20px;
+	}
+	a{
+		color: #111111;
+		text-decoration: none;
+	}
+	a:hover{
+		text-decoration: underline;
+	}
+	button.button-search {
+		display: inline-block;
+		height: 44px;
+		margin-top: 20px;
+		margin-left: 5%;
+		width: 210px;
+	}
+	input[type="text"] {
+		width: 550px;
+		height: 25px;
+		display: block;
+	}
+	form {
+		margin-left: 30%;
+	}
+	.content {
+		padding-top: 120px;
+		padding-bottom: 150px;
+	}
+</style>
+<body>
+	<div class="content">
+		<div class="logo"></div>
+		<form method="post" action="#">  
+			<input type="text" name="search">
+			<button class="button-search" type="subimit">Pesquisa no Google</button>
+			<button class="button-search" type="subimit">Estou com sorte</button>
+		</form>
+	</div>
+</body>
+<footer style="background-color: #f2f2f2;; height: 50px; width: 100%;margin-left: -10px;position: absolute;">
+	<ul class="footer-left">
+		<li><a href="">Publicidade</a></li>
+		<li><a href="">Negocios</a></li>
+		<li><a href="">Sobre</a></li>
+	</ul>
+	<ul class="footer-right">
+		<li><a href="#">Privacidade</a></li>
+		<li><a href="#">Termos</a></li>
+		<li><a href="#">Configuração</a></li>
+	</ul>
+</footer>
+</html>
